@@ -555,10 +555,11 @@ header {
   padding: 40px 25px;
 }
 .bannerimg1 {
-  max-width: 330px;
+  max-width: 300px;
 }
 .bannerimg2 {
-  max-width: 160px;
+  max-width: 140px;
+  left: 30%;
 }
 .gamescontent {
   margin-left:0px;
@@ -571,8 +572,54 @@ header {
 .gamesimage {
   text-align: center;
 }
-
-
+.category {
+  padding: 45px 20px;
+}
+.category1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:5px;
+}
+.card p {
+  font-size: 13px;
+  line-height: 15px;
+}
+.category2 {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  gap:5px;
+  padding: 0;
+  margin:10px 0 0 0;
+}
+footer {
+  padding: 40px 25px;
+}
+.blackfooter ul {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap:15px 5px;
+}
+footer .logo {
+  margin-bottom:15px;
+}
+.blackfooter .terms ul {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+.blackfooter .terms {
+  margin: 0 auto 25px auto;
+  max-width:100%;
+}
+.blackfooter .social {
+  max-width:100%;
+  margin: 0 auto 25px auto;
+}
+.blackfooter .footermenu {
+  max-width:100%;
+  margin: 0 auto25px auto;
+}
 
 }
 
