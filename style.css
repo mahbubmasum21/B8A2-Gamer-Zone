@@ -1,0 +1,492 @@
+/* ---- overall styling --- */
+html{
+    overflow-x: hidden; 
+ }
+ body{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin:0;
+ }
+ .container {
+     max-width:1140px;
+     margin: 0 auto;
+   }
+   h1,h2,h3{
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #0B0223;
+    padding: 0;
+     margin:0;
+   }
+   p{
+    color: #534C64;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0;
+    margin:0;
+   }
+   a{
+    text-decoration: none;
+   }
+
+   .btnPrimary{
+    background: #ff42a5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight:500;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 48px;
+    padding:15px 35px 14px 35px;
+  }
+  .btnSecondary{
+    background: #4EC5F7;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight:500;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 48px;
+    padding:15px 35px 14px 35px;
+  }
+  .btnPrimary a, .btnSecondary a{
+    color:#ffffff;
+    line-height:0;
+}
+   /* ---- header styling --- */
+   header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding:20px 0px;
+   }
+   .nav ul>li{
+    list-style-type: none;
+    margin-left:25px;
+   }
+   .nav ul li a {
+    color: #3C354F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   }
+   .nav ul{
+    display: inline-flex;
+    align-items: center;
+   }
+   .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 1140px;
+    margin: 0 auto;
+    vertical-align:middle;
+   }
+   .logo{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+   }
+   .navbar h3{
+    font-size: 45px;
+    margin-left:10px;
+   }
+   .follow{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding:9px 16px;
+    display: inline-flex;
+    align-items: center;
+   }
+   .follow span{
+    margin-right: 10px;
+    color: #3C354F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:0;
+   }
+/* ---- main body styling --- */
+.mainbanner{
+    padding:50px 0px 0px 0px;
+    background-image: url("images/Group14.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:0px 0px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+  }
+  .bannerimage{
+
+  }
+  .bannerimg{
+    margin-bottom:-5px;
+    max-width:600px;
+  }
+  .bannercontent h2{
+    color: #0B0223;
+    font-size: 45px;
+    font-style: normal;
+    font-weight:600;
+    line-height: normal;
+    text-transform: uppercase;
+    line-height:40px;
+  }
+  .bannercontent h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .featurelist{
+    margin:18px 0px 35px 0px;
+  }
+  .featurelist p{
+    color: #534C64;
+    font-size:19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:30px;
+  }
+  .funnyvideos{
+    padding: 70px 0px 0px 0px;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+  }
+.videosmain{
+    margin-top:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap:15px;
+    
+}
+.videosbanner h2{
+  color: #0B0223;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.videosbanner h2 span{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.videos{
+  width: 25%;
+}
+.videobg1{
+  padding: 150px 20px;
+  text-align: center;
+  background-image: url("images/Rectangle4.png");
+  background-size: cover;
+  border-radius: 16px;
+  transition: .5s ease;
+  margin-bottom:15px;
+  border:2px solid #fff;
+}
+.videobg1:hover{
+  background-image: url("images/Rectangle4.png"), linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+  background-blend-mode: overlay;
+  transition: .5s ease;
+  border:2px solid #FF42A5;
+}
+.videobg1 p{
+  color: #FF42A5;
+  visibility: hidden;
+}
+.videobg1 a{
+  visibility: hidden;
+}
+.videobg1:hover a, .videobg1:hover p{
+  visibility: visible;
+}
+.videobg2{
+  padding: 150px 20px;
+  text-align: center;
+  background-image: url("images/Rectangle5.png");
+  background-size: cover;
+  border-radius: 16px;
+  transition: .5s ease;
+  margin-bottom:15px;
+  border:2px solid #fff;
+}
+.videobg2:hover{
+  background-image: url("images/Rectangle5.png"), linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+  background-blend-mode: overlay;
+  transition: .5s ease;
+  border:2px solid #FF42A5;
+}
+.videobg2 p{
+  color: #FF42A5;
+  visibility: hidden;
+}
+.videobg2 a{
+  visibility: hidden;
+}
+.videobg2:hover a, .videobg2:hover p{
+  visibility: visible;
+}
+.videobg3{
+  padding: 150px 20px;
+  text-align: center;
+  background-image: url("images/Rectangle6.png");
+  background-size: cover;
+  border-radius: 16px;
+  transition: 1s ease;
+  margin-bottom:15px;
+  border:2px solid #fff;
+}
+.videobg3:hover{
+  background-image: url("images/Rectangle6.png"), linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+  background-blend-mode: overlay;
+  transition: 1s ease;
+  border:2px solid #FF42A5;
+}
+.videobg3 p{
+  color: #FF42A5;
+  visibility: hidden;
+}
+.videobg3 a{
+  visibility: hidden;
+}
+.videobg3:hover a, .videobg3:hover p{
+  visibility: visible;
+}
+.videobg4{
+  padding: 150px 20px;
+  text-align: center;
+  background-image: url("images/Rectangle55.png");
+  background-size: cover;
+  border-radius: 16px;
+  transition: 1s ease;
+  margin-bottom:15px;
+  border:2px solid #fff;
+}
+.videobg4:hover{
+  background-image: url("images/Rectangle55.png"), linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+  background-blend-mode: overlay;
+  transition: .5s ease;
+  border:2px solid #FF42A5;
+}
+.videobg4 p{
+  color: #FF42A5;
+  visibility: hidden;
+}
+.videobg4 a{
+  visibility: hidden;
+}
+.videobg4:hover a, .videobg4:hover p{
+  visibility: visible;
+}
+.gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 70px 0px;
+  }
+  .gamerbanner{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .gamercontent{
+    text-align: right;
+    margin-left:60px;
+  }
+  .gamercontent h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom:20px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gamercontent .btnPrimary{
+    margin-top:20px;
+  }
+  .gamercontent p{
+    font-size: 16px;
+  }
+  .gamercontent h3{
+    font-size:22px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  .gamerimg1{
+    max-width:620px;
+  }
+
+  .playgames{
+    padding:80px 0px 80px 0px;
+}
+.gamesbanner{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .gamescontent{
+    margin-left:200px;
+  }
+  .gamescontent h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .gamescontent h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gamesimage{
+  }
+  .bannerimg1{
+   max-width:550px;
+  }
+  .bannerimg2{
+    position: relative;
+    border-radius: 8px;
+    left:60%;
+    top:-230px;
+    z-index:1;
+    margin-bottom: -230px;
+  }
+.category{
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  padding: 80px 0px;
+}
+.categorybanner{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.category1{
+  display: grid;
+  grid-template-columns: repeat(5, 200px 230px 200px 250px 190px);
+  gap: 15px;
+}
+.category2{
+  display: grid;
+  grid-template-columns: repeat(4, 250px 280px 220px 220px);
+  gap:15px;
+  width:950px;
+  align-content: center;
+  padding:30px 80px 0px 80px;
+}
+.card{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  border-radius: 50px;
+  background: #FFF;
+  padding:8px;
+  border: 1px solid #ffffff;
+}
+.card:hover{
+  border: 1px solid #ff42a5;
+}
+.card:hover p{
+  color: #ff42a5;
+}
+.card p{
+  font-size:16px;
+  font-weight: 500;
+}
+/* ---- footer styling --- */
+footer{
+    background: #0B0223;
+    padding:80px 0px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  footer h3{
+    font-size: 45px;
+    margin-left:10px;
+    color: #ffffff;
+   }
+footer .logo{
+   justify-content: center;
+   margin-bottom:35px;
+}
+.blackfooter{
+    max-width:950px;
+    margin: 0 auto;
+
+  }
+.blackfooter h2{
+    font-size: 40px;
+    margin:0px;
+}
+.blackfooter ul>li{
+    list-style-type: none;
+    margin-left:15px;
+   }
+.blackfooter ul>li:first-child{
+    margin-left:0px;
+   }
+.blackfooter ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-block;
+   }
+.blackfooter ul{
+    display:grid;
+    align-items: center;
+    grid-template-columns: repeat(6, 1fr);
+   }
+.blackfooter .terms{
+    max-width:750px;
+    margin: 0 auto 35px auto;
+}
+.blackfooter .terms ul{
+    display:grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+   }
+.blackfooter .terms ul li a{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.blackfooter .social{
+    max-width:400px;
+    margin: 0 auto 35px auto;
+}
+.blackfooter .footermenu{
+    margin: 0 auto 35px auto;
+}
+.blackfooter .social ul li a i{
+    font-size:23px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+    display: block;
+}
