@@ -496,8 +496,11 @@ footer .logo{
   .navbar, .nav ul,.banner{
     flex-direction:column;
    }
-   .banner{
+   .banner, .playgames {
     flex-direction:column-reverse;
+   }
+   .gamerbanner, .videosmain, .gamesbanner {
+    flex-direction: column;
    }
    .nav ul>li {
     margin-left: 0;
@@ -510,8 +513,66 @@ footer .logo{
     padding: 30px 25px;
   }
   .mainbanner {
-    padding: 0px 25px;
+    padding: 30px 25px;
+    background-position: 50% 100%;
   }
+  .bannercontent h1 {
+    font-size:75px;
+  }
+  .bannercontent h2 {
+    font-size:37px;
+}
+.bannercontent{
+  padding: 40px 0px;
+}
+.bannerimg {
+  margin-bottom:0px;
+  max-width:320px;
+}
+header {
+  box-shadow: none;
+}
+.gamer{
+  padding: 40px 25px;
+}
+.gamercontent {
+  text-align: center;
+  margin-left:0px;
+}
+.gamerimg1 {
+  max-width: 320px;
+}
+.funnyvideos {
+  padding: 40px 25px 0px 25px;
+}
+.videosbanner h2 {
+  font-size: 27px;
+}
+.videos {
+  width:100%;
+}
+.playgames {
+  padding: 40px 25px;
+}
+.bannerimg1 {
+  max-width: 330px;
+}
+.bannerimg2 {
+  max-width: 160px;
+}
+.gamescontent {
+  margin-left:0px;
+  text-align: center;
+  margin-top: 25px;
+}
+.gamescontent h2 {
+  font-size: 28px;
+}
+.gamesimage {
+  text-align: center;
+}
+
+
 
 }
 
