@@ -74,7 +74,7 @@ html{
     line-height: normal;
    }
    .nav ul{
-    display: inline-flex;
+    display:flex;
     align-items: center;
    }
    .navbar{
@@ -169,7 +169,7 @@ html{
     text-align: center;
   }
 .videosmain{
-    margin-top:40px;
+    margin-top:30px;
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
@@ -281,7 +281,7 @@ html{
   border:2px solid #fff;
 }
 .videobg4:hover{
-  background-image: url("images/Rectangle55.png"), linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+  background-image: url("images/Rectangle7.png"), linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
   background-blend-mode: overlay;
   transition: .5s ease;
   border:2px solid #FF42A5;
@@ -489,4 +489,33 @@ footer .logo{
     font-size: 16px;
     line-height: normal;
     display: block;
+}
+
+/* ---- responsive styling --- */
+@media only screen and (max-width: 600px) {
+  .navbar, .nav ul,.banner{
+    flex-direction:column;
+   }
+   .banner{
+    flex-direction:column-reverse;
+   }
+   .nav ul>li {
+    margin-left: 0;
+    margin-bottom:10px;
+   }
+  .follow {
+    margin-top: 15px;
+  }
+  header {
+    padding: 30px 25px;
+  }
+  .mainbanner {
+    padding: 0px 25px;
+  }
+
+}
+
+@media only screen and (max-width:px) and (min-width: 600px)  {
+
+
 }
